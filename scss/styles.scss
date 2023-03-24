@@ -1,0 +1,25 @@
+$background-color : #000;
+$red : red;
+
+@mixin friday {
+    background-color: red;
+    font-size: 2rem;
+    color: #fff;
+}
+
+#main-nav{
+    // @include friday   
+     background-color: $background-color;
+    
+    ul{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        list-style: none;
+        height: 4rem;
+    }
+    a{
+        text-decoration: none;
+        color:#e70808
+    }
+}
